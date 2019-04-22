@@ -7,7 +7,7 @@
  <output value= "Привет! А как тебя зовут?"/>
 
 <input pattern="$Text">
- <var name="UserName" value="Cap($Text)" scope="user"/>
+ <var name="UserName" value="cap($Text)" scope="user"/>
  <output value= "Приятно познакомиться,> $UserName"/>
 
 </input>
