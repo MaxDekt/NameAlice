@@ -1,5 +1,5 @@
 ﻿<context>
- <input pattern= "* (Привет*|Здравствуй*|Здарова*|АУЕ*|Салам ворам* ) *">
+ <input pattern= "* (Привет*|Здравствуй*|Здарова*|АУЕ*|Салам ворам*|Здравствуйте* ) *">
  <output value= "Привет $UserName!" If="full($UserName)"/>
 
 
@@ -8,7 +8,7 @@
 
 <input pattern="$Text">
  <var name="UserName" value="cap($Text)" scope="user"/>
- <output value= "Приятно познакомиться, $UserName"/>
+ <output value= "Приятно познакомиться, $UserName!"/>
 
 </input>
 
